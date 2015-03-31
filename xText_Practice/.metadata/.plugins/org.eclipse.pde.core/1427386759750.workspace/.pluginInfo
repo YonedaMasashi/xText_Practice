@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="727" localization="OSGI-INF/l10n/bundle" name="org.xtext.example.qdsl.tests" project="org.xtext.example.qdsl.tests" provider="My Company"/>
+	<bundle bundleID="728" class="org.xtext.example.qdsl.ui.internal.QDslActivator" localization="OSGI-INF/l10n/bundle" name="org.xtext.example.qdsl.ui" project="org.xtext.example.qdsl.ui" provider="My Company"/>
+	<bundle bundleID="729" localization="OSGI-INF/l10n/bundle" name="org.xtext.example.qdsl" project="org.xtext.example.qdsl" provider="My Company"/>
+</map>

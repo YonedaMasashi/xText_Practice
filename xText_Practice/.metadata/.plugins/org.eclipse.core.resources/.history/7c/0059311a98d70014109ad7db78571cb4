@@ -1,0 +1,9 @@
+grammar org.xtext.example.qdsl.QDsl with org.eclipse.xtext.common.Terminals
+
+generate qDsl "http://www.xtext.org/example/qdsl/QDsl"
+
+Model:
+	greetings+=Greeting*;
+	
+Greeting:
+	'Hello' name=ID '!';
