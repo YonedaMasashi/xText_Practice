@@ -1,0 +1,9 @@
+questions ConferenceResult {
+	questionItem RateTheConference {
+		questionContent "Please rate the conference"
+		answerType check_box
+		chooseFrom "Very satisfied" "Satisfied" "Average" "Disappointed"
+	}
+	
+	questionItem 
+}

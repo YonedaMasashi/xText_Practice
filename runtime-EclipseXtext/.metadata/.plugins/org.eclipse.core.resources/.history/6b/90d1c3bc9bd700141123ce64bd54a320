@@ -1,0 +1,13 @@
+questions ConferenceResult {
+	questionItem RateTheConference {
+		questionContent "Please rate the conference"
+		answerType check_box
+		chooseFrom "Very satisfied" "Satisfied" "Average" "Disappointed"
+	}
+	
+	questionItem BestTalk {
+		questionContent "Which talk do you think was the best in the ..."
+		answerType radio_button
+		chooseFrom "A. Bron" "E. Jerry" "R. Parker" "Y. Koisumi"
+	}
+}
